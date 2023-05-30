@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuentos{
+    padding: 10px 27px;
+    background-color: #1cd1b0;
+}
+.descuentos p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.heroes{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+}
+.heroes h1{
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+.position-relative{
+    position: relative;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.tarjeta{
+    max-width: 300px;
+    margin: 154px 15px 151px 15px;
+}
+
+
+.tarjeta i{
+    position: absolute;
+    top: -170px;
+    left: 15px;
+    font-size: 30px;
+}
+
+.tarjeta .photo{
+    position: absolute;
+    bottom: -50px;
+    left: 85px;
+    border-radius: 50%;
+}
+.tarjeta h2{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    padding-top:70px ;
+    padding-bottom: 10px;
+}
+.tarjeta p{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 16px 37px 16px;
+}
+.tarjeta .cuerpo{
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.tarjeta .contenedor-boton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+.tarjeta button{
+    padding: 15px 37px;
+    background-color: #00669F;
+    border: 0;
+    color: #ffffff;
+}
+footer {
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF9F9;
+}
+
